@@ -1,0 +1,88 @@
+/* 注册页专有模块 */
+.login_page {
+    margin: 20px auto 0;
+    width: 450px;
+    height: 580px;
+    padding: 20px 25px;
+}
+
+.login_box {
+    text-align: center;
+    margin: 10px auto;
+}
+
+input {
+    outline: none;
+}
+.input_box_input{
+    position: relative;
+}
+.input_box_input .annotation {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    margin-top: 50px;
+    color: red;
+}
+
+.input_box_input input {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 15px;
+    background-color: rgb(8, 108, 155);
+}
+
+.code {
+    position: relative;
+}
+
+.code .get_code {
+    color: white;
+    position: absolute;
+    display: inline;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    right: 52px;
+    top: 34px;
+    background-color: rgb(8, 108, 155);
+    cursor: pointer;
+}
+
+.input_box button {
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: rgb(8, 108, 155);
+    color: #f1f1f1;
+}
+
+.inputAgree {
+    font-size: 14px;
+    margin-top: 20px;
+    height: 24px;
+    color: rgb(53, 162, 212);
+}
+
+.inputAgree input {
+    width: 15px;
+    height: 15px;
+}
+
+.inputAgree a {
+    margin: 0 3px;
+    color: rgb(8, 108, 155);
+    text-align: 24px;
+}
+
+.inputAgree a:hover {
+    color: rgb(6, 66, 90);
+}

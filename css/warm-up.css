@@ -1,0 +1,24 @@
+/* 主体模块 */
+.warm_up ul li {
+    width: 900px;
+    height: 600px;
+    margin-bottom: 40px;
+    float: left;
+}
+.warm_up ul li p {
+    font-size: 16px;
+    text-align: center;
+}
+.warm_up ul li p:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+.warm_up video {
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+.warm_up img {
+    width: 900px;
+    margin-bottom: 20px;
+} 

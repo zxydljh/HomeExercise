@@ -1,0 +1,30 @@
+.fat_burning ul {
+    margin-left: 100px;
+}
+
+.fat_burning ul li {
+    width: 700px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.fat_burning ul li img {
+    width: 700px;
+    height: 400px;
+}
+.fat_burning ul li video {
+    width: 700px;
+    height: 400px;
+}
+
+.fat_burning ul li p {
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fat_burning ul li p:hover {
+    color: aquamarine;
+    cursor: pointer;
+}

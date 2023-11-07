@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>居家徒手锻炼 - 注册</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/commoon.css">
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <!-- header头部模块制作 start -->
+    <header class="w">
+        <div class="bodyColor">
+            <!-- 改变背景颜色 -->
+            <ul id="background">
+                <li style="background-color: rgb(243, 230, 230);">白</li>
+                <li style="background-color: rgb(222, 82, 82);">红</li>
+                <li style="background-color: rgb(82, 211, 82);">绿</li>
+                <li style="background-color: rgb(106, 106, 191);">紫</li>
+                <li style="background-color: rgb(44, 42, 42);">黑</li>
+            </ul>
+            <p>选择喜欢的主体颜色吧！</p>
+        </div>
+
+         <!-- 登录注册 -->
+         <div class="login_up">
+            <span><a href="./login.html">登录</a></span>
+            <span><a href="./register.html">注册</a></span>
+        </div>
+        
+        <!-- logo -->
+        <div class="logo">
+            <h1>
+                <a href="../index.html" title="居家徒手锻炼">
+                    <img src="../images/SportLogo.png" alt="">居家徒手锻炼</a>
+            </h1>
+        </div>
+    </header>
+    <!-- header头部模块制作 end -->
+
+    <!-- 注册页面专有模块 start -->
+    <div class="w">
+        <div class="login_page">
+            <form action="" class="login_box" action="http://localhost:8888/html/register.html" method="post" onsubmit="return submit()">
+                <div class="input_box_input">
+                    <input id="username" type="text" placeholder="请输入用户名" required name="username">
+                    <span class="annotation" id="thisUsername"></span>
+                </div>
+                <div class="input_box_input">
+                    <input id="email" type="email" placeholder="请输入邮件地址" required name="email">
+                    <span class="annotation" id="thisEmail"></span>
+                </div>        
+                <div class="input_box_input">
+                    <input id="pwd" type="password" placeholder="设置密码" required name="password">
+                    <span class="annotation" id="thisPwd"></span>
+                </div>
+                <div class="input_box_input">
+                    <input id="repwd" type="password" placeholder="确定密码" required name="repassword">
+                    <span class="annotation" id="thisRepwd"></span>
+                </div>
+                <div class="input_box_input">
+                    <div class="code">
+                        <input type="text" placeholder="请输入验证码" required name="code">
+                        <span class="get_code" id="get_codes" name="getcode">获取验证码</span>
+                    </div>
+                </div>
+                <div class="input_box">
+                    <button id="submit" type="submit" name="submit" value="注册">注册</button>
+                </div>
+                <div class="inputAgree">
+                    <input type="checkbox">我同意居家徒手锻炼<a href="#">用户协议</a>和<a href="#">隐私政策</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 注册页面专有模块 end -->
+
+    <!-- 底部模块 -->
+    <footer class="w">
+        <div class="bottom">
+            <p class="copyright">Copyright 居家徒手锻炼（<a href="../index.html">exercise.com</a> ）</p>
+            <p class="copyright">本站的资源来自互联网，如果有侵犯版权的资源请尽快联系站长，我们会在24h内删除有争议的资源。</p>
+        </div>
+    </footer>
+</body>
+
+</html>

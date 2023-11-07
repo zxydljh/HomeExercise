@@ -1,0 +1,51 @@
+nav {
+    margin-bottom: 100px;
+}
+
+.hot_video ul {
+    position: relative;
+}
+
+.hot_video .one {
+    margin-bottom: 100px;
+}
+
+.hot_video li {
+    width: 900px;
+    height: 700px;
+}
+
+.hot_video #NO_1 {
+    position: absolute;
+    left: -150px;
+}
+
+.hot_video h1 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.hot_video h2 {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.hot_video h1:hover,
+.hot_video h2:hover {
+    cursor: default;
+}
+
+.hot_video h2 em {
+    color: rgb(50, 152, 200);
+}
+
+.hot_video video {
+    width: 900px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.hot_video ul li p:hover {
+    color: aquamarine;
+    cursor: pointer;
+}

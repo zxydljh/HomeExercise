@@ -1,0 +1,273 @@
+/* 头部模块 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.b{
+    width: 900px;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(243, 230, 230);
+}
+header .bodyColor {
+   width: 200px;
+   height: 30px;
+   position: relative;
+}
+/* 背景颜色 */
+header .bodyColor #background li {
+    display: block;
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.bodyColor #background li:hover{
+    cursor: pointer;
+}
+.bodyColor #background li:nth-child(1){
+    background-color: rgb(243, 230, 230);
+}
+#background li:nth-child(2){
+    background-color: rgb(222, 82, 82);
+}
+.bodyColor #background li:nth-child(3){
+    background-color: rgb(82, 211, 82);
+}
+.bodyColor #background li:nth-child(4){
+    background-color: rgb(106, 106, 191);
+}
+.bodyColor #background li:nth-child(5){
+    background-color: rgb(44, 42, 42);
+}
+.bodyColor p{
+    position: absolute;
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    margin-left: 130px;
+    color:rgb(82, 222, 203);
+    top:5px;
+}
+.bodyColor p::before {
+    content: '';
+    position: absolute;
+    display: block;
+    right: 199px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 8px solid transparent;
+    border-right-color: black;
+
+}
+
+/* 登录/注册 */
+.login_up {
+    float: right;
+    margin-right: 100px;
+    width: 50px;
+}
+
+.login_up span {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.login_up span a {
+    border-radius: 10px;
+    font-size: 18px;
+    display: block;
+    color: white;
+    background-color: rgb(8, 108, 155);
+    padding: 5px;
+}
+
+/* logo */
+.logo {
+    position: relative;
+}
+.logo a {
+    font-size: 0;
+    position: absolute;
+    display: block;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.logo a img {
+    width: 100px;
+    height: 60px;
+}
+/* banner模块 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 60px;
+}
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    overflow: hidden;
+}
+/* 箭头 */
+.arrow_l {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 28px;
+    color: #fff;
+    z-index: 10;
+}
+.arrow_r {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 28px;
+    color: #fff;
+    z-index: 10;
+
+}
+.arrow_l:hover,
+.arrow_r:hover {
+    color: rgb(50, 152, 200);
+}
+/* 小圆圈 */
+.circle {
+    cursor: pointer;
+    position: absolute;
+    font-size: 14px;
+    z-index: 10;
+    bottom: 20px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-left: 5px;
+}
+.circle .current {
+    background-color: rgb(50, 152, 200);
+}
+.focus ul {
+    position: absolute;
+    width: 1000%;
+}
+.focus ul li {
+    float: left;
+}
+.focus ul li img {
+    width: 721px;
+    height: 455px;
+}
+
+/* 回到顶部 */
+.top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    font-size: 18px;
+    font-weight: 900;
+}
+.top a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: rgb(50, 152, 200);
+}
+.top a:hover {
+    color: rgb(8, 108, 155);
+}
+
+/* 导航栏模块 */
+.navigation {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#nav {
+    border-bottom: 2px solid white;
+}
+.navigation ul{
+    display: block;
+    height: 50px;
+}
+.navigation ul a {
+    color: white !important;
+}
+.navigation ul li{
+    float: right;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 90px;
+    padding: 5px;
+    vertical-align: middle;
+    
+}
+.navigation ul li:hover{
+    cursor: pointer;
+    background-color: beige;
+    color: aquamarine;
+}
+#nav .current{
+    background-color: aliceblue;
+    color: aquamarine;
+}
+
+
+/* 底部模块 */
+.bottom {
+    height: 200px;
+    margin: 50px auto 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom a:hover {
+    color: aquamarine;
+}
+
+.mod_service {
+    margin-left: 210px;
+    height: 25px;
+}
+
+.mod_service ul li {
+    display: block;
+    float: left;
+}
+
+.mod_service ul li::after {
+    content: "|";
+    margin: 0 20px;
+}
+
+.mod_service ul li:last-child::after {
+    content: "";
+}
+
+.mod_service ul li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+
+.copyright {
+    margin-bottom: 20px;
+    font-size: 18px;
+}

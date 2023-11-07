@@ -1,0 +1,55 @@
+/* 登录页专有模块 */
+.login_page {
+    margin: 50px auto 0;
+    width: 450px;
+    height: 480px;
+    padding: 20px 25px;
+}
+
+.login_box {
+    text-align: center;
+    margin: 10px auto;
+}
+
+input {
+    outline: none;
+}
+
+.input_box_input input {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+.input_box button {
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: rgb(8, 108, 155);
+    color: #f1f1f1;
+}
+
+.inputAgree {
+    font-size: 14px;
+    margin-top: 20px;
+    height: 24px;
+    color: rgb(53, 162, 212);
+}
+
+.inputAgree input {
+    width: 15px;
+    height: 15px;
+}
+
+.inputAgree a {
+    margin: 0 3px;
+    color: rgb(8, 108, 155);
+    text-align: 24px;
+}
+.inputAgree a:hover {
+    color: rgb(6, 66, 90);
+}
