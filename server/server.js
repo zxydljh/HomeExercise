@@ -1,7 +1,8 @@
 let express = require('express');
 let path = require('path');
 let app = express();
-const db = require('../database/index')
+const db = require('../database/index');
+const { log } = require('console');
 
 let regSchema = (request, response) => {
     console.log(request.body);
@@ -112,6 +113,7 @@ app.post('/html/login.html', (logSchema, logUser));
 
 app.get('/html/login.html', (request, response) => {
     response.sendFile(path.join(__dirname, '../html/login.html'));
+    console.log(request,response);
 });
 
 app.get('/html/register.html', (request, response) => {

@@ -18,7 +18,7 @@ window.addEventListener('load', function () {
     // 导航栏
     var nav = document.getElementById('nav');
     var lis = nav.getElementsByTagName('li');
-    var items = document.querySelectorAll('.item');
+
     // for循环绑定点击事件
     for (var i = 0; i < lis.length; i++) {
         // 给li 设置索引号
